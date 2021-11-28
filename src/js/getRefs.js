@@ -10,5 +10,8 @@ export function getRefs() {
         dataMonthTime: document.querySelector('.date__month-time'),
         dataMonth: document.querySelector('.date__month'),
         dataTime: document.querySelector('.date__time'),
+        form: document.querySelector(".form"),
+        btnWeather: document.querySelector(".btnWeather"),
+
     }
 }
