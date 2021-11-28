@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 body {
+  height: 100vh;
   background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
 }
 .container {
@@ -52,4 +53,9 @@ body {
   font-family: Lato;
   font-weight: 400;
   padding-top: 26px;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
 }
